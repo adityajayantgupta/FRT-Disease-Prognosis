@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link href="https://unpkg.com/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Disease Prognosis
+            </h1>
+            <p>Get an instant predictive disease prognosis based on your symptoms, powered by machine learning.</p>
+            <form id="form">
+                <input type="text" name="symptoms" id="symptoms" placeholder="Symptoms">
+                <button type="submit">Get Prognosis</button>
+            </form>
+            <div id="prognosis">
+                <h1 id="prognosis-title">
+
+                </h1>                
+                <a href="" id="prognosis-details" target="blank">Know More</a>
+            </div>            
+            <p id="caution">Please know that this is just the closest estimation based on a variety of data. Do not consider this as professional medical advice. Contact your doctor for any medical assistance.</p>
+            
+        </div>
+    <script src="https://unpkg.com/@yaireo/tagify"></script>
+    <script src="https://unpkg.com/@yaireo/tagify/dist/tagify.polyfills.min.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>

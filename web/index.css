@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 600px;
+}
+
+div.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #42C2FF;
+}
+
+h1#prognosis-title{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: black;
+    border-style: dashed;
+}
+
+a#prognosis-details{
+    display: block;
+}
+
+p {
+    margin: auto;
+    color: #4a4a4a;
+}
+
+p#caution {
+    font-size: 0.8rem;
+    position: absolute;
+    left: 100;
+    right: 100;
+    bottom: 20;
+}
+
+.tagify {
+    margin: 1rem;
+}
+
+.tagify__input {
+    margin: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.tagify__input::before{ position:static; }
+
+button[type="submit"] {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+button[type="submit"]:hover {
+    background-color: #42C2FF;
+    color: white;
+}
+
+@media (min-width: 1024px){
+    div.container {
+        width: 60%;
+    }
+}
+
+@media (min-height: 600px) {
+    div.container {
+        margin-top: 5rem;
+    }
+}
+
+@media (min-height: 800px) {
+    div.container {
+        margin-top: 10rem;
+    }
+}
