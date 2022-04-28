@@ -3,7 +3,9 @@
 
 Microsoft Future Ready Talent Internship Project
 
-Project URL - https://adityagupta4213.z13.web.core.windows.net/
+~~Project URL - https://adityagupta4213.z13.web.core.windows.net/~~
+
+The project web app is not available due to my expired Azure subscription, however it can still be run locally using Docker. 
 
 ![image](https://user-images.githubusercontent.com/19838832/160603066-4da09cf1-66bd-4d27-8745-0e3f5e5e4582.png)
 
